@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wx250-bringup
+Version: 0.0.1
+Summary: Bringup + MoveIt (Move Group, RViz) + optional teleop for wx250
+Home-page: UNKNOWN
+Maintainer: ishabh
+Maintainer-email: ishabh@todo.todo
+License: TODO
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

@@ -1,0 +1,255 @@
+[0.198s] Invoking command in '/home/ishabh/interbotix_ws/build/omni_msgs': CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ishabh/interbotix_ws/src/geomagic_touch_ros2/omni_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ishabh/interbotix_ws/install/omni_msgs
+[0.370s] -- The C compiler identification is GNU 11.4.0
+[0.370s] -- The CXX compiler identification is GNU 11.4.0
+[0.370s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.405s] -- Detecting C compile features
+[0.406s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.482s] -- Detecting CXX compile features - done
+[0.484s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.622s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.667s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.693s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.773s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.065s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.534s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.536s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.561s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.561s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.561s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.561s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.580s] -- Found PythonExtra: .so  
+[1.641s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.657s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.658s] -- Added test 'lint_cmake' to check CMake code style
+[1.659s] -- Added test 'xmllint' to check XML markup files
+[1.661s] -- Configuring done
+[1.682s] -- Generating done
+[1.689s] -- Build files have been written to: /home/ishabh/interbotix_ws/build/omni_msgs
+[1.696s] Invoked command in '/home/ishabh/interbotix_ws/build/omni_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/ishabh/interbotix_ws/src/geomagic_touch_ros2/omni_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ishabh/interbotix_ws/install/omni_msgs
+[1.697s] Invoking command in '/home/ishabh/interbotix_ws/build/omni_msgs': CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ishabh/interbotix_ws/build/omni_msgs -- -j32 -l32
+[1.734s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.741s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.748s] [  4%] Built target ament_cmake_python_symlink_omni_msgs
+[1.903s] running egg_info
+[1.904s] creating omni_msgs.egg-info
+[1.904s] writing omni_msgs.egg-info/PKG-INFO
+[1.904s] writing dependency_links to omni_msgs.egg-info/dependency_links.txt
+[1.904s] writing top-level names to omni_msgs.egg-info/top_level.txt
+[1.905s] writing manifest file 'omni_msgs.egg-info/SOURCES.txt'
+[1.905s] reading manifest file 'omni_msgs.egg-info/SOURCES.txt'
+[1.906s] writing manifest file 'omni_msgs.egg-info/SOURCES.txt'
+[1.925s] [  4%] Built target ament_cmake_python_build_omni_msgs_egg
+[1.974s] [  4%] Built target omni_msgs__cpp
+[1.976s] [  6%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_generator_c.dir/rosidl_generator_c/omni_msgs/msg/detail/omni_feedback__functions.c.o[0m
+[1.978s] [  8%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_generator_c.dir/rosidl_generator_c/omni_msgs/msg/detail/omni_button_event__functions.c.o[0m
+[1.978s] [ 10%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_generator_c.dir/rosidl_generator_c/omni_msgs/msg/detail/omni_state__functions.c.o[0m
+[1.989s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.994s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.994s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.020s] [ 19%] [32m[1mLinking C shared library libomni_msgs__rosidl_generator_c.so[0m
+[2.050s] [ 19%] Built target omni_msgs__rosidl_generator_c
+[2.060s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.060s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.060s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.176s] [ 27%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/omni_msgs/msg/omni_feedback__type_support.cpp.o[0m
+[2.177s] [ 29%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/omni_msgs/msg/omni_button_event__type_support.cpp.o[0m
+[2.178s] [ 31%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/omni_msgs/msg/omni_state__type_support.cpp.o[0m
+[2.187s] [ 34%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/omni_msgs/msg/detail/omni_button_event__type_support.cpp.o[0m
+[2.188s] [ 36%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/omni_msgs/msg/detail/omni_state__type_support.cpp.o[0m
+[2.189s] [ 38%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/omni_msgs/msg/detail/omni_feedback__type_support.cpp.o[0m
+[2.200s] [ 40%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omni_msgs/msg/detail/dds_fastrtps/omni_state__type_support.cpp.o[0m
+[2.201s] [ 42%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omni_msgs/msg/detail/dds_fastrtps/omni_button_event__type_support.cpp.o[0m
+[2.201s] [ 44%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/omni_msgs/msg/detail/dds_fastrtps/omni_feedback__type_support.cpp.o[0m
+[2.252s] [ 46%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/omni_msgs/msg/omni_feedback__type_support.cpp.o[0m
+[2.254s] [ 48%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/omni_msgs/msg/omni_button_event__type_support.cpp.o[0m
+[2.254s] [ 51%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/omni_msgs/msg/omni_state__type_support.cpp.o[0m
+[2.276s] [ 53%] [32m[1mLinking CXX shared library libomni_msgs__rosidl_typesupport_c.so[0m
+[2.280s] [ 55%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omni_msgs/msg/detail/omni_feedback__type_support.c.o[0m
+[2.281s] [ 57%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omni_msgs/msg/detail/omni_button_event__type_support.c.o[0m
+[2.282s] [ 59%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/omni_msgs/msg/detail/omni_state__type_support.c.o[0m
+[2.302s] [ 61%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/omni_msgs/msg/detail/omni_state__type_support_c.cpp.o[0m
+[2.303s] [ 65%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/omni_msgs/msg/detail/omni_feedback__type_support_c.cpp.o[0m
+[2.303s] [ 65%] [32mBuilding CXX object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/omni_msgs/msg/detail/omni_button_event__type_support_c.cpp.o[0m
+[2.310s] [ 65%] Built target omni_msgs__rosidl_typesupport_c
+[2.311s] [ 68%] [32m[1mLinking C shared library libomni_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.335s] [ 68%] Built target omni_msgs__rosidl_typesupport_introspection_c
+[2.447s] [ 70%] [32m[1mLinking CXX shared library libomni_msgs__rosidl_typesupport_cpp.so[0m
+[2.487s] [ 70%] Built target omni_msgs__rosidl_typesupport_cpp
+[2.512s] [ 72%] [32m[1mLinking CXX shared library libomni_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.513s] [ 74%] [32m[1mLinking CXX shared library libomni_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.538s] [ 76%] [32m[1mLinking CXX shared library libomni_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.561s] [ 76%] Built target omni_msgs__rosidl_typesupport_introspection_cpp
+[2.565s] [ 76%] Built target omni_msgs__rosidl_typesupport_fastrtps_c
+[2.607s] [ 76%] Built target omni_msgs__rosidl_typesupport_fastrtps_cpp
+[2.624s] [ 76%] Built target omni_msgs
+[2.642s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.957s] [ 78%] Built target omni_msgs__py
+[2.973s] [ 80%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_generator_py.dir/rosidl_generator_py/omni_msgs/msg/_omni_feedback_s.c.o[0m
+[2.973s] [ 82%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_generator_py.dir/rosidl_generator_py/omni_msgs/msg/_omni_state_s.c.o[0m
+[2.975s] [ 85%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_generator_py.dir/rosidl_generator_py/omni_msgs/msg/_omni_button_event_s.c.o[0m
+[3.050s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/omni_msgs/libomni_msgs__rosidl_generator_py.so[0m
+[3.090s] [ 87%] Built target omni_msgs__rosidl_generator_py
+[3.115s] [ 89%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/omni_msgs/_omni_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.115s] [ 91%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/omni_msgs/_omni_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.116s] [ 93%] [32mBuilding C object CMakeFiles/omni_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/omni_msgs/_omni_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.188s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/omni_msgs/omni_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.188s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/omni_msgs/omni_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.188s] [100%] [32m[1mLinking C shared library rosidl_generator_py/omni_msgs/omni_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.226s] [100%] Built target omni_msgs__rosidl_typesupport_c__pyext
+[3.226s] [100%] Built target omni_msgs__rosidl_typesupport_introspection_c__pyext
+[3.226s] [100%] Built target omni_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.234s] Invoked command in '/home/ishabh/interbotix_ws/build/omni_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/ishabh/interbotix_ws/build/omni_msgs -- -j32 -l32
+[3.235s] Invoking command in '/home/ishabh/interbotix_ws/build/omni_msgs': CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ishabh/interbotix_ws/build/omni_msgs
+[3.241s] -- Install configuration: ""
+[3.242s] -- Execute custom install script
+[3.242s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/ament_index/resource_index/rosidl_interfaces/omni_msgs
+[3.252s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__functions.h
+[3.263s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__struct.h
+[3.274s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__type_support.h
+[3.283s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__functions.h
+[3.292s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__struct.h
+[3.301s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__type_support.h
+[3.310s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__functions.h
+[3.319s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__struct.h
+[3.329s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__type_support.h
+[3.338s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/omni_button_event.h
+[3.344s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/omni_feedback.h
+[3.355s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/omni_state.h
+[3.364s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.373s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/library_path.sh
+[3.381s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/library_path.dsv
+[3.390s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__rosidl_typesupport_fastrtps_c.h
+[3.398s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__rosidl_typesupport_fastrtps_c.h
+[3.407s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__rosidl_typesupport_fastrtps_c.h
+[3.416s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.425s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__rosidl_typesupport_introspection_c.h
+[3.433s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__rosidl_typesupport_introspection_c.h
+[3.441s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__rosidl_typesupport_introspection_c.h
+[3.453s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.462s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__builder.hpp
+[3.469s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__struct.hpp
+[3.476s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__traits.hpp
+[3.485s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__type_support.hpp
+[3.494s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__builder.hpp
+[3.503s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__struct.hpp
+[3.513s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__traits.hpp
+[3.522s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__type_support.hpp
+[3.532s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__builder.hpp
+[3.541s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__struct.hpp
+[3.548s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__traits.hpp
+[3.557s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__type_support.hpp
+[3.566s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/omni_button_event.hpp
+[3.575s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/omni_feedback.hpp
+[3.584s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/omni_state.hpp
+[3.593s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.603s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__rosidl_typesupport_fastrtps_cpp.hpp
+[3.613s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[3.623s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.633s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.643s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_button_event__rosidl_typesupport_introspection_cpp.hpp
+[3.651s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_feedback__rosidl_typesupport_introspection_cpp.hpp
+[3.660s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/include/omni_msgs/omni_msgs/msg/detail/omni_state__rosidl_typesupport_introspection_cpp.hpp
+[3.669s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/pythonpath.sh
+[3.678s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/pythonpath.dsv
+[3.688s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.697s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.706s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.715s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.725s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/__init__.py
+[3.733s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/_omni_msgs_s.ep.rosidl_typesupport_c.c
+[3.743s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/_omni_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.750s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/_omni_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.758s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/libomni_msgs__rosidl_generator_py.so
+[3.766s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/__init__.py
+[3.776s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_button_event.py
+[3.785s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_button_event_s.c
+[3.794s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_feedback.py
+[3.803s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_feedback_s.c
+[3.812s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_state.py
+[3.821s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_state_s.c
+[3.830s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/omni_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.840s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/omni_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.847s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/omni_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.852s] -- Up-to-date symlink: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/omni_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.853s] -- Up-to-date symlink: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/omni_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.853s] -- Up-to-date symlink: /home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/omni_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.853s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/msg/OmniButtonEvent.idl
+[3.859s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/msg/OmniFeedback.idl
+[3.867s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/msg/OmniState.idl
+[3.875s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/msg/OmniButtonEvent.msg
+[3.884s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/msg/OmniFeedback.msg
+[3.893s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/msg/OmniState.msg
+[3.902s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/ament_index/resource_index/package_run_dependencies/omni_msgs
+[3.911s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/ament_index/resource_index/parent_prefix_path/omni_msgs
+[3.921s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/ament_prefix_path.sh
+[3.930s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/ament_prefix_path.dsv
+[3.939s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/path.sh
+[3.948s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/environment/path.dsv
+[3.956s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/local_setup.bash
+[3.966s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/local_setup.sh
+[3.974s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/local_setup.zsh
+[3.979s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/local_setup.dsv
+[3.988s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/package.dsv
+[3.996s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/ament_index/resource_index/packages/omni_msgs
+[4.006s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/rosidl_cmake-extras.cmake
+[4.015s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.024s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.034s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.043s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.053s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.063s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.070s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgsConfig.cmake
+[4.077s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgsConfig-version.cmake
+[4.086s] -- Symlinking: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/package.xml
+[4.094s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_generator_c.so
+[4.095s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_generator_c.so" to ""
+[4.095s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_fastrtps_c.so
+[4.095s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.095s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_introspection_c.so
+[4.095s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.095s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_c.so
+[4.096s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_c.so" to ""
+[4.096s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.096s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.096s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_introspection_cpp.so
+[4.096s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.096s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_cpp.so
+[4.096s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_typesupport_cpp.so" to ""
+[4.136s] Listing '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs'...
+[4.136s] Compiling '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/__init__.py'...
+[4.136s] Listing '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg'...
+[4.136s] Compiling '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/__init__.py'...
+[4.136s] Compiling '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_button_event.py'...
+[4.136s] Compiling '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_feedback.py'...
+[4.136s] Compiling '/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages/omni_msgs/msg/_omni_state.py'...
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_generator_py.so
+[4.139s] -- Set runtime path of "/home/ishabh/interbotix_ws/install/omni_msgs/lib/libomni_msgs__rosidl_generator_py.so" to ""
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_generator_cExport.cmake
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.139s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_cExport.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_generator_cppExport.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_cppExport.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/omni_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_generator_pyExport.cmake
+[4.140s] -- Installing: /home/ishabh/interbotix_ws/install/omni_msgs/share/omni_msgs/cmake/export_omni_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.142s] Invoked command in '/home/ishabh/interbotix_ws/build/omni_msgs' returned '0': CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/ishabh/interbotix_ws/build/omni_msgs

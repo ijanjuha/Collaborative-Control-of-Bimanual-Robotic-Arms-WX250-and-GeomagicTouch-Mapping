@@ -1,0 +1,15 @@
+source;share/wx250_geomagic_teleop/hook/cmake_prefix_path.ps1
+source;share/wx250_geomagic_teleop/hook/cmake_prefix_path.dsv
+source;share/wx250_geomagic_teleop/hook/cmake_prefix_path.sh
+source;share/wx250_geomagic_teleop/hook/ros_package_path.ps1
+source;share/wx250_geomagic_teleop/hook/ros_package_path.dsv
+source;share/wx250_geomagic_teleop/hook/ros_package_path.sh
+source;share/wx250_geomagic_teleop/hook/catkin_pythonpath.ps1
+source;share/wx250_geomagic_teleop/hook/catkin_pythonpath.dsv
+source;share/wx250_geomagic_teleop/hook/catkin_pythonpath.sh
+source;share/wx250_geomagic_teleop/hook/pkg_config_path.ps1
+source;share/wx250_geomagic_teleop/hook/pkg_config_path.dsv
+source;share/wx250_geomagic_teleop/hook/pkg_config_path.sh
+source;share/wx250_geomagic_teleop/hook/pkg_config_path_multiarch.ps1
+source;share/wx250_geomagic_teleop/hook/pkg_config_path_multiarch.dsv
+source;share/wx250_geomagic_teleop/hook/pkg_config_path_multiarch.sh

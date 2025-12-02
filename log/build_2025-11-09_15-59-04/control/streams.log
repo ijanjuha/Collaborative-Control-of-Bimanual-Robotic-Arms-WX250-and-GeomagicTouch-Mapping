@@ -1,0 +1,17 @@
+[0.833s] Invoking command in '/home/ishabh/interbotix_ws/build/control': PYTHONPATH=/home/ishabh/interbotix_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ishabh/interbotix_ws/build/control/build --no-deps symlink_data
+[0.992s] running develop
+[1.080s] running egg_info
+[1.080s] writing control.egg-info/PKG-INFO
+[1.080s] writing dependency_links to control.egg-info/dependency_links.txt
+[1.080s] writing entry points to control.egg-info/entry_points.txt
+[1.080s] writing requirements to control.egg-info/requires.txt
+[1.080s] writing top-level names to control.egg-info/top_level.txt
+[1.081s] reading manifest file 'control.egg-info/SOURCES.txt'
+[1.082s] writing manifest file 'control.egg-info/SOURCES.txt'
+[1.083s] running build_ext
+[1.083s] Creating /home/ishabh/interbotix_ws/install/control/lib/python3.10/site-packages/control.egg-link (link to .)
+[1.083s] Installing teleop script to /home/ishabh/interbotix_ws/install/control/lib/control
+[1.083s] 
+[1.083s] Installed /home/ishabh/interbotix_ws/build/control
+[1.083s] running symlink_data
+[1.117s] Invoked command in '/home/ishabh/interbotix_ws/build/control' returned '0': PYTHONPATH=/home/ishabh/interbotix_ws/build/control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ishabh/interbotix_ws/build/control/build --no-deps symlink_data

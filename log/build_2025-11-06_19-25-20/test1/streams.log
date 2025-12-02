@@ -1,0 +1,21 @@
+[0.883s] Invoking command in '/home/ishabh/interbotix_ws/build/test1': PYTHONPATH=/home/ishabh/interbotix_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ishabh/interbotix_ws/build/test1/build --no-deps symlink_data
+[1.051s] running develop
+[1.141s] running egg_info
+[1.141s] writing test1.egg-info/PKG-INFO
+[1.141s] writing dependency_links to test1.egg-info/dependency_links.txt
+[1.141s] writing entry points to test1.egg-info/entry_points.txt
+[1.141s] writing requirements to test1.egg-info/requires.txt
+[1.142s] writing top-level names to test1.egg-info/top_level.txt
+[1.142s] reading manifest file 'test1.egg-info/SOURCES.txt'
+[1.143s] writing manifest file 'test1.egg-info/SOURCES.txt'
+[1.144s] running build_ext
+[1.144s] Creating /home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages/test1.egg-link (link to .)
+[1.146s] Installing sub_phantom_button script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.146s] Installing sub_phantom_force script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.146s] Installing sub_phantom_joint_state script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.146s] Installing sub_phantom_pose script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.146s] Installing sub_phantom_state script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.146s] 
+[1.146s] Installed /home/ishabh/interbotix_ws/build/test1
+[1.146s] running symlink_data
+[1.479s] Invoked command in '/home/ishabh/interbotix_ws/build/test1' returned '0': PYTHONPATH=/home/ishabh/interbotix_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ishabh/interbotix_ws/build/test1/build --no-deps symlink_data

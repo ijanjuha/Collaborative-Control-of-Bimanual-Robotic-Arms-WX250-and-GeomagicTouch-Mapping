@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e8feddd142f231629c99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wx250_geomagic_teleop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_wx250_geomagic_teleop_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_wx250_geomagic_teleop_egg-b060e933d3e862e9c5b1.json",
+					"name" : "ament_cmake_python_build_wx250_geomagic_teleop_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_wx250_geomagic_teleop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_wx250_geomagic_teleop-52ee8ff257b90c638956.json",
+					"name" : "ament_cmake_python_copy_wx250_geomagic_teleop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6b253864806c815deff3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wx250_geomagic_teleop_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wx250_geomagic_teleop_uninstall-dffebec16bd89af66ffd.json",
+					"name" : "wx250_geomagic_teleop_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ishabh/interbotix_ws/build/wx250_geomagic_teleop",
+		"source" : "/home/ishabh/interbotix_ws/src/wx250_geomagic_teleop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

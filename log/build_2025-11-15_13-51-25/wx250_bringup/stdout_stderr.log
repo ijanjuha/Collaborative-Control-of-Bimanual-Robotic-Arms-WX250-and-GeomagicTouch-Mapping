@@ -1,0 +1,61 @@
+running egg_info
+creating ../../build/wx250_bringup/wx250_bringup.egg-info
+writing ../../build/wx250_bringup/wx250_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/wx250_bringup/wx250_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/wx250_bringup/wx250_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/wx250_bringup/wx250_bringup.egg-info/requires.txt
+writing top-level names to ../../build/wx250_bringup/wx250_bringup.egg-info/top_level.txt
+writing manifest file '../../build/wx250_bringup/wx250_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/wx250_bringup/wx250_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/wx250_bringup/wx250_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ishabh/interbotix_ws/build/wx250_bringup/build
+creating /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib
+creating /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup
+copying wx250_bringup/__init__.py -> /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup
+copying wx250_bringup/robot_to_geomagic_feedback.py -> /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup
+copying wx250_bringup/geomagic_servo.py -> /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup
+copying wx250_bringup/custom_servo_node.py -> /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup
+copying wx250_bringup/servo_to_interbotix_bridge.py -> /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup
+running install
+running install_lib
+creating /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup
+copying /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup/__init__.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup
+copying /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup/robot_to_geomagic_feedback.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup
+copying /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup/geomagic_servo.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup
+copying /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup/custom_servo_node.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup
+copying /home/ishabh/interbotix_ws/build/wx250_bringup/build/lib/wx250_bringup/servo_to_interbotix_bridge.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup
+byte-compiling /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup/robot_to_geomagic_feedback.py to robot_to_geomagic_feedback.cpython-310.pyc
+byte-compiling /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup/geomagic_servo.py to geomagic_servo.cpython-310.pyc
+byte-compiling /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup/custom_servo_node.py to custom_servo_node.cpython-310.pyc
+byte-compiling /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup/servo_to_interbotix_bridge.py to servo_to_interbotix_bridge.cpython-310.pyc
+running install_data
+creating /home/ishabh/interbotix_ws/install/wx250_bringup/share/ament_index
+creating /home/ishabh/interbotix_ws/install/wx250_bringup/share/ament_index/resource_index
+creating /home/ishabh/interbotix_ws/install/wx250_bringup/share/ament_index/resource_index/packages
+copying resource/wx250_bringup -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup
+creating /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_moveit_bulletproof.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_geomagic_teleop_sim.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_full_teleop.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_interface_bridge.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_servo_teleop.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_moveit_teleop.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_geomagic_allinone.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+copying launch/wx250_rviz.launch.py -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/launch
+creating /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/config
+copying config/servo_params_fixed.yaml -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/config
+copying config/servo_params.yaml -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/config
+copying config/servo.yaml -> /home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/config
+running install_egg_info
+Copying ../../build/wx250_bringup/wx250_bringup.egg-info to /home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages/wx250_bringup-0.0.1-py3.10.egg-info
+running install_scripts
+Installing custom_servo_node script to /home/ishabh/interbotix_ws/install/wx250_bringup/lib/wx250_bringup
+Installing geomagic_servo script to /home/ishabh/interbotix_ws/install/wx250_bringup/lib/wx250_bringup
+Installing robot_to_geomagic_feedback script to /home/ishabh/interbotix_ws/install/wx250_bringup/lib/wx250_bringup
+Installing servo_to_interbotix_bridge script to /home/ishabh/interbotix_ws/install/wx250_bringup/lib/wx250_bringup
+Installing test_moveit_cmd script to /home/ishabh/interbotix_ws/install/wx250_bringup/lib/wx250_bringup
+writing list of installed files to '/home/ishabh/interbotix_ws/build/wx250_bringup/install.log'

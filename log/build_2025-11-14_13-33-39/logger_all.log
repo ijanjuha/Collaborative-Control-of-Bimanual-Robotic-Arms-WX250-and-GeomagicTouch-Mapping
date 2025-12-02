@@ -1,0 +1,884 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'wx250_bringup']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['wx250_bringup'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d7bbb053be0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d7bbb0535e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d7bbb0535e0>>, mixin_verb=('build',))
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.165s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ishabh/interbotix_ws'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/control) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control' with type 'ros.ament_python' and name 'control'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_broadcaster) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geomagic_touch_ros2/omni_broadcaster' with type 'ros.ament_cmake' and name 'omni_broadcaster'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_common) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geomagic_touch_ros2/omni_common' with type 'ros.ament_cmake' and name 'omni_common'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_description) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geomagic_touch_ros2/omni_description' with type 'ros.ament_cmake' and name 'omni_description'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/geomagic_touch_ros2/omni_msgs) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geomagic_touch_ros2/omni_msgs' with type 'ros.ament_cmake' and name 'omni_msgs'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/images) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_common_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_common_drivers) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_common_drivers) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_slate) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_slate) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_slate) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries' with type 'ros.ament_cmake' and name 'interbotix_ros_xseries'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver' with type 'ros.ament_cmake' and name 'interbotix_xs_driver'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs' with type 'ros.ament_cmake' and name 'interbotix_xs_msgs'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk' with type 'ros.ament_cmake' and name 'interbotix_xs_sdk'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/images) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples' with type 'ros.ament_cmake' and name 'interbotix_ros_xsarms_examples'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_diagnostic_tool) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_diagnostic_tool) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_diagnostic_tool) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual' with type 'ros.ament_cmake' and name 'interbotix_xsarm_dual'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual_joy) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual_joy) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation' with type 'ros.ament_cmake' and name 'interbotix_xsarm_gravity_compensation'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy' with type 'ros.ament_cmake' and name 'interbotix_xsarm_joy'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface' with type 'ros.ament_cmake' and name 'interbotix_xsarm_moveit_interface'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_pid) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_pid) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_pid) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet' with type 'ros.ament_cmake' and name 'interbotix_xsarm_puppet'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/images) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/amd64) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/install/rpi4) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms' with type 'ros.ament_cmake' and name 'interbotix_ros_xsarms'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control' with type 'ros.ament_cmake' and name 'interbotix_xsarm_control'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions' with type 'ros.ament_cmake' and name 'interbotix_xsarm_descriptions'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit' with type 'ros.ament_cmake' and name 'interbotix_xsarm_moveit'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception' with type 'ros.ament_cmake' and name 'interbotix_xsarm_perception'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control' with type 'ros.ament_cmake' and name 'interbotix_xsarm_ros_control'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim' with type 'ros.ament_cmake' and name 'interbotix_xsarm_sim'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/images) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules' with type 'ros.ament_python' and name 'interbotix_common_modules'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim' with type 'ros.ament_cmake' and name 'interbotix_common_sim'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox' with type 'ros.ament_cmake' and name 'interbotix_common_toolbox'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation' with type 'ros.ament_cmake' and name 'interbotix_gravity_compensation'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_landmark_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_landmark_modules) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_landmark_modules) ignored
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface' with type 'ros.ament_cmake' and name 'interbotix_moveit_interface'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs' with type 'ros.ament_cmake' and name 'interbotix_moveit_interface_msgs'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools' with type 'ros.ament_cmake' and name 'interbotix_tf_tools'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_io_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_io_toolbox) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_io_toolbox) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules' with type 'ros.ament_python' and name 'interbotix_perception_modules'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs' with type 'ros.ament_cmake' and name 'interbotix_perception_msgs'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines' with type 'ros.ament_cmake' and name 'interbotix_perception_pipelines'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox' with type 'ros.ament_cmake' and name 'interbotix_perception_toolbox'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_rpi_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_rpi_toolbox) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_rpi_toolbox) ignored
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules' with type 'ros.ament_python' and name 'interbotix_xs_modules'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control' with type 'ros.ament_cmake' and name 'interbotix_xs_ros_control'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz' with type 'ros.ament_cmake' and name 'interbotix_xs_rviz'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox' with type 'ros.ament_cmake' and name 'interbotix_xs_toolbox'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/interbotix_ros_toolboxes/third_party_libraries/ModernRobotics/mr) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_visual_tools' with type 'ros.ament_cmake' and name 'moveit_visual_tools'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/test1) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test1' with type 'ros.ament_python' and name 'test1'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_bringup) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wx250_bringup' with type 'ros.ament_python' and name 'wx250_bringup'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/wx250_geomagic_teleop) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wx250_geomagic_teleop' with type 'ros.catkin' and name 'wx250_geomagic_teleop'
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'control' in 'src/control'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_workbench_toolbox' in 'src/interbotix_ros_core/interbotix_ros_xseries/dynamixel_workbench_toolbox'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_common_modules' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_common_sim' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_moveit_interface_msgs' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface_msgs'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_perception_msgs' in 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_msgs'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_tf_tools' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_msgs' in 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_msgs'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'moveit_visual_tools' in 'src/moveit_visual_tools'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'omni_description' in 'src/geomagic_touch_ros2/omni_description'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'omni_msgs' in 'src/geomagic_touch_ros2/omni_msgs'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'test1' in 'src/test1'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_gravity_compensation' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_gravity_compensation'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_moveit_interface' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_moveit_interface'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_perception_pipelines' in 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines'
+[0.243s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_driver' in 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_driver'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_ros_control' in 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_ros_control'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'omni_broadcaster' in 'src/geomagic_touch_ros2/omni_broadcaster'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'omni_common' in 'src/geomagic_touch_ros2/omni_common'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_common_toolbox' in 'src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_toolbox'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_perception_modules' in 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_modules'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_sdk' in 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_xs_sdk'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_perception_toolbox' in 'src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_toolbox'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_ros_xseries' in 'src/interbotix_ros_core/interbotix_ros_xseries/interbotix_ros_xseries'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_modules' in 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_modules'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_rviz' in 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_rviz'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xs_toolbox' in 'src/interbotix_ros_toolboxes/interbotix_xs_toolbox/interbotix_xs_toolbox'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_descriptions' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_control' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_sim' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_sim'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_dual' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_dual'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_gravity_compensation' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_gravity_compensation'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_joy' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_perception' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_puppet' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_puppet'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_ros_control' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_ros_control'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_moveit' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_moveit'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_ros_xsarms' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_ros_xsarms'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_xsarm_moveit_interface' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_moveit_interface'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interbotix_ros_xsarms_examples' in 'src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_ros_xsarms_examples'
+[0.244s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wx250_geomagic_teleop' in 'src/wx250_geomagic_teleop'
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 42 installed packages in /home/ishabh/interbotix_ws/install
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ishabh/Desktop/sarm_ws/install
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ishabh/apriltag_ws/install
+[0.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/humble
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'wx250_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'wx250_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ishabh/interbotix_ws/build/wx250_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ishabh/interbotix_ws/install/wx250_bringup', 'merge_install': False, 'path': '/home/ishabh/interbotix_ws/src/wx250_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.270s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.271s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ishabh/interbotix_ws/src/wx250_bringup' with build type 'ament_python'
+[0.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('wx250_bringup', 'ament_prefix_path')
+[0.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/hook/ament_prefix_path.ps1'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/hook/ament_prefix_path.dsv'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/hook/ament_prefix_path.sh'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ishabh/interbotix_ws/src/wx250_bringup'
+[0.459s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ishabh/interbotix_ws/src/wx250_bringup': AMENT_PREFIX_PATH=/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/omni_common:/home/ishabh/interbotix_ws/install/omni_broadcaster:/home/ishabh/interbotix_ws/install/omni_msgs:/home/ishabh/interbotix_ws/install/omni_description:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface:/home/ishabh/interbotix_ws/install/moveit_visual_tools:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms:/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit:/home/ishabh/interbotix_ws/install/interbotix_xsarm_sim:/home/ishabh/interbotix_ws/install/interbotix_xsarm_ros_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_puppet:/home/ishabh/interbotix_ws/install/interbotix_xsarm_perception:/home/ishabh/interbotix_ws/install/interbotix_xsarm_joy:/home/ishabh/interbotix_ws/install/interbotix_xsarm_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_xsarm_dual:/home/ishabh/interbotix_ws/install/interbotix_xsarm_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_descriptions:/home/ishabh/interbotix_ws/install/interbotix_xs_toolbox:/home/ishabh/interbotix_ws/install/interbotix_xs_rviz:/home/ishabh/interbotix_ws/install/interbotix_ros_xseries:/home/ishabh/interbotix_ws/install/interbotix_xs_sdk:/home/ishabh/interbotix_ws/install/interbotix_xs_ros_control:/home/ishabh/interbotix_ws/install/interbotix_perception_toolbox:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_toolbox:/home/ishabh/interbotix_ws/install/interbotix_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs:/home/ishabh/interbotix_ws/install/interbotix_xs_driver:/home/ishabh/interbotix_ws/install/interbotix_tf_tools:/home/ishabh/interbotix_ws/install/interbotix_perception_pipelines:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ishabh/interbotix_ws/install/interbotix_common_sim:/home/ishabh/interbotix_ws/install/dynamixel_workbench_toolbox:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/home/ishabh/apriltag_ws/install/apriltag_ros:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit:/home/ishabh/interbotix_ws/install/interbotix_xsarm_ros_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_sim:/home/ishabh/interbotix_ws/install/interbotix_xsarm_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_descriptions:/home/ishabh/interbotix_ws/install/interbotix_xs_sdk:/home/ishabh/interbotix_ws/install/interbotix_xs_ros_control:/home/ishabh/interbotix_ws/install/interbotix_xs_driver:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs:/home/ishabh/interbotix_ws/install/interbotix_common_sim:/home/ishabh/interbotix_ws/install/dynamixel_workbench_toolbox:/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop:/home/ishabh/interbotix_ws/install/omni_common:/home/ishabh/interbotix_ws/install/omni_broadcaster:/home/ishabh/interbotix_ws/install/omni_msgs:/home/ishabh/interbotix_ws/install/omni_description:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface:/home/ishabh/interbotix_ws/install/moveit_visual_tools:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms:/home/ishabh/interbotix_ws/install/interbotix_xsarm_puppet:/home/ishabh/interbotix_ws/install/interbotix_xsarm_perception:/home/ishabh/interbotix_ws/install/interbotix_xsarm_joy:/home/ishabh/interbotix_ws/install/interbotix_xsarm_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_xsarm_dual:/home/ishabh/interbotix_ws/install/interbotix_xs_toolbox:/home/ishabh/interbotix_ws/install/interbotix_xs_rviz:/home/ishabh/interbotix_ws/install/interbotix_ros_xseries:/home/ishabh/interbotix_ws/install/interbotix_perception_toolbox:/home/ishabh/interbotix_ws/install/interbotix_common_toolbox:/home/ishabh/interbotix_ws/install/interbotix_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_tf_tools:/home/ishabh/interbotix_ws/install/interbotix_perception_pipelines:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ishabh/apriltag_ws/install/apriltag_ros LD_LIBRARY_PATH=/home/ishabh/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ishabh/interbotix_ws/install/interbotix_xs_driver/lib:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ishabh/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ishabh/interbotix_ws/install/omni_msgs/lib:/home/ishabh/interbotix_ws/install/moveit_visual_tools/lib:/home/ishabh/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ishabh/interbotix_ws/install/interbotix_tf_tools/lib:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ishabh/apriltag_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ishabh/interbotix_ws/build/wx250_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/build/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/build/interbotix_common_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/build/test1:/home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/build/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/build/control:/home/ishabh/interbotix_ws/install/control/lib/python3.10/site-packages:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop/lib/python3.10/site-packages:/home/ishabh/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wx250_bringup build --build-base /home/ishabh/interbotix_ws/build/wx250_bringup/build install --record /home/ishabh/interbotix_ws/build/wx250_bringup/install.log --single-version-externally-managed install_data
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ishabh/interbotix_ws/src/wx250_bringup' returned '0': AMENT_PREFIX_PATH=/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/home/ishabh/interbotix_ws/install/wx250_bringup:/home/ishabh/interbotix_ws/install/test1:/home/ishabh/interbotix_ws/install/omni_common:/home/ishabh/interbotix_ws/install/omni_broadcaster:/home/ishabh/interbotix_ws/install/omni_msgs:/home/ishabh/interbotix_ws/install/omni_description:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface:/home/ishabh/interbotix_ws/install/moveit_visual_tools:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms:/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit:/home/ishabh/interbotix_ws/install/interbotix_xsarm_sim:/home/ishabh/interbotix_ws/install/interbotix_xsarm_ros_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_puppet:/home/ishabh/interbotix_ws/install/interbotix_xsarm_perception:/home/ishabh/interbotix_ws/install/interbotix_xsarm_joy:/home/ishabh/interbotix_ws/install/interbotix_xsarm_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_xsarm_dual:/home/ishabh/interbotix_ws/install/interbotix_xsarm_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_descriptions:/home/ishabh/interbotix_ws/install/interbotix_xs_toolbox:/home/ishabh/interbotix_ws/install/interbotix_xs_rviz:/home/ishabh/interbotix_ws/install/interbotix_ros_xseries:/home/ishabh/interbotix_ws/install/interbotix_xs_sdk:/home/ishabh/interbotix_ws/install/interbotix_xs_ros_control:/home/ishabh/interbotix_ws/install/interbotix_perception_toolbox:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_toolbox:/home/ishabh/interbotix_ws/install/interbotix_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs:/home/ishabh/interbotix_ws/install/interbotix_xs_driver:/home/ishabh/interbotix_ws/install/interbotix_tf_tools:/home/ishabh/interbotix_ws/install/interbotix_perception_pipelines:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ishabh/interbotix_ws/install/interbotix_common_sim:/home/ishabh/interbotix_ws/install/dynamixel_workbench_toolbox:/home/ishabh/interbotix_ws/install/control:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop:/home/ishabh/apriltag_ws/install/apriltag_ros:/opt/ros/humble CMAKE_PREFIX_PATH=/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit:/home/ishabh/interbotix_ws/install/interbotix_xsarm_ros_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_sim:/home/ishabh/interbotix_ws/install/interbotix_xsarm_control:/home/ishabh/interbotix_ws/install/interbotix_xsarm_descriptions:/home/ishabh/interbotix_ws/install/interbotix_xs_sdk:/home/ishabh/interbotix_ws/install/interbotix_xs_ros_control:/home/ishabh/interbotix_ws/install/interbotix_xs_driver:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs:/home/ishabh/interbotix_ws/install/interbotix_common_sim:/home/ishabh/interbotix_ws/install/dynamixel_workbench_toolbox:/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop:/home/ishabh/interbotix_ws/install/omni_common:/home/ishabh/interbotix_ws/install/omni_broadcaster:/home/ishabh/interbotix_ws/install/omni_msgs:/home/ishabh/interbotix_ws/install/omni_description:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms_examples:/home/ishabh/interbotix_ws/install/interbotix_xsarm_moveit_interface:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface:/home/ishabh/interbotix_ws/install/moveit_visual_tools:/home/ishabh/interbotix_ws/install/interbotix_ros_xsarms:/home/ishabh/interbotix_ws/install/interbotix_xsarm_puppet:/home/ishabh/interbotix_ws/install/interbotix_xsarm_perception:/home/ishabh/interbotix_ws/install/interbotix_xsarm_joy:/home/ishabh/interbotix_ws/install/interbotix_xsarm_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_xsarm_dual:/home/ishabh/interbotix_ws/install/interbotix_xs_toolbox:/home/ishabh/interbotix_ws/install/interbotix_xs_rviz:/home/ishabh/interbotix_ws/install/interbotix_ros_xseries:/home/ishabh/interbotix_ws/install/interbotix_perception_toolbox:/home/ishabh/interbotix_ws/install/interbotix_common_toolbox:/home/ishabh/interbotix_ws/install/interbotix_gravity_compensation:/home/ishabh/interbotix_ws/install/interbotix_tf_tools:/home/ishabh/interbotix_ws/install/interbotix_perception_pipelines:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs:/home/ishabh/apriltag_ws/install/apriltag_ros LD_LIBRARY_PATH=/home/ishabh/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ishabh/interbotix_ws/install/interbotix_xs_driver/lib:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ishabh/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ishabh/interbotix_ws/install/omni_msgs/lib:/home/ishabh/interbotix_ws/install/moveit_visual_tools/lib:/home/ishabh/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ishabh/interbotix_ws/install/interbotix_tf_tools/lib:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ishabh/apriltag_ws/install/apriltag_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ishabh/interbotix_ws/build/wx250_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/build/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_xs_modules/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/build/interbotix_common_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/build/test1:/home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/install/omni_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/build/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules/lib/python3.10/site-packages:/home/ishabh/interbotix_ws/install/interbotix_xs_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/install/interbotix_moveit_interface_msgs/local/lib/python3.10/dist-packages:/home/ishabh/interbotix_ws/build/control:/home/ishabh/interbotix_ws/install/control/lib/python3.10/site-packages:/home/ishabh/Desktop/sarm_ws/install/sarm_teleop/lib/python3.10/site-packages:/home/ishabh/apriltag_ws/install/apriltag_ros/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wx250_bringup build --build-base /home/ishabh/interbotix_ws/build/wx250_bringup/build install --record /home/ishabh/interbotix_ws/build/wx250_bringup/install.log --single-version-externally-managed install_data
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup' for CMake module files
+[0.894s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup' for CMake config files
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup/lib'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup/bin'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup/lib/pkgconfig/wx250_bringup.pc'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup/lib/python3.10/site-packages'
+[0.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('wx250_bringup', 'pythonpath')
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/hook/pythonpath.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/hook/pythonpath.dsv'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/hook/pythonpath.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/ishabh/interbotix_ws/install/wx250_bringup/bin'
+[0.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wx250_bringup)
+[0.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/package.ps1'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/package.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/package.sh'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/package.bash'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/ishabh/interbotix_ws/install/wx250_bringup/share/wx250_bringup/package.zsh'
+[0.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ishabh/interbotix_ws/install/wx250_bringup/share/colcon-core/packages/wx250_bringup)
+[0.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.898s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.898s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.904s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.912s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishabh/interbotix_ws/install/local_setup.ps1'
+[0.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ishabh/interbotix_ws/install/_local_setup_util_ps1.py'
+[0.914s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishabh/interbotix_ws/install/setup.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishabh/interbotix_ws/install/local_setup.sh'
+[0.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ishabh/interbotix_ws/install/_local_setup_util_sh.py'
+[0.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishabh/interbotix_ws/install/setup.sh'
+[0.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishabh/interbotix_ws/install/local_setup.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishabh/interbotix_ws/install/setup.bash'
+[0.918s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ishabh/interbotix_ws/install/local_setup.zsh'
+[0.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ishabh/interbotix_ws/install/setup.zsh'

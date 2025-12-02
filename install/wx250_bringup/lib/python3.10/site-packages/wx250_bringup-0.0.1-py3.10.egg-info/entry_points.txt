@@ -1,0 +1,7 @@
+[console_scripts]
+custom_servo_node = wx250_bringup.custom_servo_node:main
+geomagic_servo = wx250_bringup.geomagic_servo:main
+robot_to_geomagic_feedback = wx250_bringup.robot_to_geomagic_feedback:main
+servo_to_interbotix_bridge = wx250_bringup.servo_to_interbotix_bridge:main
+test_moveit_cmd = wx250_bringup.test_moveit_cmd:main
+

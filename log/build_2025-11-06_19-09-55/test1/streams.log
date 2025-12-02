@@ -1,0 +1,25 @@
+[0.826s] Invoking command in '/home/ishabh/interbotix_ws/build/test1': PYTHONPATH=/home/ishabh/interbotix_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ishabh/interbotix_ws/build/test1/build --no-deps symlink_data
+[0.983s] running develop
+[1.045s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:355: UserWarning: Unbuilt egg for interbotix-common-modules 0.0.0 (/home/ishabh/interbotix_ws/build/interbotix_common_modules)
+[1.045s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.045s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:355: UserWarning: Unbuilt egg for control 0.0.0 (/home/ishabh/interbotix_ws/build/control)
+[1.046s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.072s] running egg_info
+[1.073s] writing test1.egg-info/PKG-INFO
+[1.073s] writing dependency_links to test1.egg-info/dependency_links.txt
+[1.073s] writing entry points to test1.egg-info/entry_points.txt
+[1.073s] writing requirements to test1.egg-info/requires.txt
+[1.073s] writing top-level names to test1.egg-info/top_level.txt
+[1.074s] reading manifest file 'test1.egg-info/SOURCES.txt'
+[1.074s] writing manifest file 'test1.egg-info/SOURCES.txt'
+[1.076s] running build_ext
+[1.076s] Creating /home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages/test1.egg-link (link to .)
+[1.076s] Installing sub_phantom_button script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.076s] Installing sub_phantom_force script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.076s] Installing sub_phantom_joint_state script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.076s] Installing sub_phantom_pose script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.076s] Installing sub_phantom_state script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+[1.076s] 
+[1.076s] Installed /home/ishabh/interbotix_ws/build/test1
+[1.076s] running symlink_data
+[1.430s] Invoked command in '/home/ishabh/interbotix_ws/build/test1' returned '0': PYTHONPATH=/home/ishabh/interbotix_ws/build/test1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ishabh/interbotix_ws/build/test1/build --no-deps symlink_data

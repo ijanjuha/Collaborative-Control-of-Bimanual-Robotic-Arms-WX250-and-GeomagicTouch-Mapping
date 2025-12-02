@@ -1,0 +1,4 @@
+source;share/wx250_geomagic_teleop/local_setup.bash
+source;share/wx250_geomagic_teleop/local_setup.dsv
+source;share/wx250_geomagic_teleop/local_setup.sh
+source;share/wx250_geomagic_teleop/local_setup.zsh

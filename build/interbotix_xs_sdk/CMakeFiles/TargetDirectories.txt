@@ -1,0 +1,10 @@
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/uninstall.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/interbotix_xs_sdk_uninstall.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/xs_sdk.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/test.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/edit_cache.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/rebuild_cache.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/list_install_components.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/install.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/install/local.dir
+/home/ishabh/interbotix_ws/build/interbotix_xs_sdk/CMakeFiles/install/strip.dir

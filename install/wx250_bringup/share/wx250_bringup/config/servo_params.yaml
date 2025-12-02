@@ -1,0 +1,43 @@
+moveit_servo:
+  ros__parameters:
+    # ---- Robot & frames ----
+    move_group_name: interbotix_arm
+    planning_frame: wx250/base_link
+    robot_link_command_frame: wx250/base_link
+    ee_frame_name: wx250/ee_gripper_link
+
+    # ---- Command I/O ----
+    command_in_type: twist                      # not "speed_units"
+    cartesian_command_in_topic: /servo_node/delta_twist_cmds
+    joint_command_in_topic: /servo_node/delta_joint_cmds   # unused, ok to leave
+    command_out_type: trajectory
+    command_out_topic: /servo_node/joint_trajectory_cmd
+    joint_topic: /wx250/joint_states
+    status_topic: /servo_node/status
+
+    # ---- Timing / QoS ----
+    publish_period: 0.01                        # 100 Hz
+    incoming_command_timeout: 0.25
+    low_latency_mode: true
+
+    # ---- Scaling ----
+    scale:
+      linear: 0.3
+      rotational: 0.8
+      joint: 0.5
+
+    # ---- Safety / Filtering ----
+    check_collisions: false                     # enable later once loop works
+    lower_singularity_threshold: 0.20
+    hard_stop_singularity_threshold: 0.05
+    smoothing_filter_plugin_name: ""            # plain output
+
+    # ---- What to publish ----
+    publish_joint_positions: true
+    publish_joint_velocities: false
+    publish_joint_accelerations: false
+
+    # ---- Planning scene (optional) ----
+    is_primary_planning_scene_monitor: true
+    monitored_planning_scene_topic: /planning_scene
+

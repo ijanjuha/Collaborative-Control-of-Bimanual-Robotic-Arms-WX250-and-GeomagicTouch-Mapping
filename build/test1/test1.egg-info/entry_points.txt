@@ -1,0 +1,7 @@
+[console_scripts]
+sub_phantom_button = test1.sub_phantom_button:main
+sub_phantom_force = test1.sub_phantom_force:main
+sub_phantom_joint_state = test1.sub_phantom_joint_state:main
+sub_phantom_pose = test1.sub_phantom_pose:main
+sub_phantom_state = test1.sub_phantom_state:main
+

@@ -1,0 +1,56 @@
+[0.191s] Invoking command in '/home/ishabh/interbotix_ws/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ishabh/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ishabh/interbotix_ws/install/interbotix_common_sim
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.313s] -- The CXX compiler identification is GNU 11.4.0
+[0.320s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.382s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.383s] -- Detecting C compile features - done
+[0.386s] -- Detecting CXX compiler ABI info
+[0.460s] -- Detecting CXX compiler ABI info - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.597s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.641s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.662s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.727s] -- Configuring done
+[0.727s] -- Generating done
+[0.727s] -- Build files have been written to: /home/ishabh/interbotix_ws/build/interbotix_common_sim
+[0.739s] Invoked command in '/home/ishabh/interbotix_ws/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake /home/ishabh/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ishabh/interbotix_ws/install/interbotix_common_sim
+[0.740s] Invoking command in '/home/ishabh/interbotix_ws/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ishabh/interbotix_ws/build/interbotix_common_sim -- -j32 -l32
+[0.776s] Invoked command in '/home/ishabh/interbotix_ws/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --build /home/ishabh/interbotix_ws/build/interbotix_common_sim -- -j32 -l32
+[0.784s] Invoking command in '/home/ishabh/interbotix_ws/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ishabh/interbotix_ws/build/interbotix_common_sim
+[0.791s] -- Install configuration: ""
+[0.792s] -- Execute custom install script
+[0.792s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/RealSenseD415.sdf
+[0.800s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/camera.stl
+[0.807s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/model.config
+[0.816s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/TrossenRoboticsOfficeBuilding.sdf
+[0.823s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/model.config
+[0.831s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/VisionKit.sdf
+[0.839s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/model.config
+[0.846s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/stand.stl
+[0.852s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/worlds/interbotix.world
+[0.860s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/worlds/vision_kit.world
+[0.868s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/interbotix_black.png
+[0.876s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_black.material
+[0.883s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_texture.gazebo
+[0.890s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures/interbotix_black.png
+[0.898s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/ament_index/resource_index/package_run_dependencies/interbotix_common_sim
+[0.906s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/ament_index/resource_index/parent_prefix_path/interbotix_common_sim
+[0.912s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.sh
+[0.920s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.dsv
+[0.928s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.sh
+[0.935s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.dsv
+[0.942s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.bash
+[0.950s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.sh
+[0.958s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.zsh
+[0.967s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.dsv
+[0.973s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/package.dsv
+[0.979s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/ament_index/resource_index/packages/interbotix_common_sim
+[0.987s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig.cmake
+[0.995s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig-version.cmake
+[1.001s] -- Symlinking: /home/ishabh/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/package.xml
+[1.011s] Invoked command in '/home/ishabh/interbotix_ws/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ishabh/interbotix_ws/install/interbotix_xs_modules:/home/ishabh/interbotix_ws/install/interbotix_perception_modules:/home/ishabh/interbotix_ws/install/interbotix_common_modules:/opt/ros/humble /usr/bin/cmake --install /home/ishabh/interbotix_ws/build/interbotix_common_sim

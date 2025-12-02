@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing test1.egg-info/PKG-INFO
+writing dependency_links to test1.egg-info/dependency_links.txt
+writing entry points to test1.egg-info/entry_points.txt
+writing requirements to test1.egg-info/requires.txt
+writing top-level names to test1.egg-info/top_level.txt
+reading manifest file 'test1.egg-info/SOURCES.txt'
+writing manifest file 'test1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ishabh/interbotix_ws/install/test1/lib/python3.10/site-packages/test1.egg-link (link to .)
+Installing sub_phantom_button script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+Installing sub_phantom_force script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+Installing sub_phantom_joint_state script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+Installing sub_phantom_pose script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+Installing sub_phantom_state script to /home/ishabh/interbotix_ws/install/test1/lib/test1
+
+Installed /home/ishabh/interbotix_ws/build/test1
+running symlink_data

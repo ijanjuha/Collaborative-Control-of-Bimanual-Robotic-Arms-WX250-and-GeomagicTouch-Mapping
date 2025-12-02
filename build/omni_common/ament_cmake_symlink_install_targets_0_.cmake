@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ishabh/interbotix_ws/build/omni_common/omni" "/home/ishabh/interbotix_ws/build/omni_common/omni_state" "TARGETS" "omni" "omni_state" "DESTINATION" "lib/omni_common")

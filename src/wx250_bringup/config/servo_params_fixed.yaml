@@ -1,0 +1,37 @@
+/**:
+  ros__parameters:
+    # === Robot & frames ===
+    move_group_name: arm
+    planning_frame: wx250/base_link
+    command_in_type: speed_units
+    command_frame: wx250/base_link
+    ee_frame_name: wx250/ee_gripper_link
+
+    # === Topics ===
+    cartesian_command_in_topic: /servo_node/delta_twist_cmds
+    joint_topic: /wx250/joint_states
+    publish_joint_trajectory: true
+    joint_trajectory_cmd_topic: /servo_node/joint_trajectory_cmd
+    status_topic: /servo_node/status
+
+    # === Scaling ===
+    linear_scale: 0.3
+    rotational_scale: 0.8
+    joint_scale: 0.5
+
+    # === Safety & smoothing ===
+    collision_check: false
+    smoothing_filter_plugin: ""
+    low_latency_mode: true
+
+    # === Timing / QoL ===
+    incoming_command_timeout: 0.25
+    publish_period: 0.01
+    allow_partial_joints_goal: true
+    publish_joint_positions: true        # <-- at least one must be true
+    publish_joint_velocities: false
+    publish_joint_accelerations: false
+
+    # === Planning scene ===
+    is_primary_planning_scene_monitor: true
+    monitored_planning_scene_topic: /servo_node/publish_planning_scene

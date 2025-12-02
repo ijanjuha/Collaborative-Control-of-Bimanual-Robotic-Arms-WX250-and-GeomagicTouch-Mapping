@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ishabh/interbotix_ws/build/wx250_geomagic_teleop
+Built target ament_cmake_python_copy_wx250_geomagic_teleop
+running egg_info
+creating wx250_geomagic_teleop.egg-info
+writing wx250_geomagic_teleop.egg-info/PKG-INFO
+writing dependency_links to wx250_geomagic_teleop.egg-info/dependency_links.txt
+writing top-level names to wx250_geomagic_teleop.egg-info/top_level.txt
+writing manifest file 'wx250_geomagic_teleop.egg-info/SOURCES.txt'
+reading manifest file 'wx250_geomagic_teleop.egg-info/SOURCES.txt'
+writing manifest file 'wx250_geomagic_teleop.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_wx250_geomagic_teleop_egg
+-- Install configuration: ""
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/environment/pythonpath.sh
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/environment/pythonpath.dsv
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop-0.0.1-py3.10.egg-info
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop-0.0.1-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop-0.0.1-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop-0.0.1-py3.10.egg-info/top_level.txt
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop-0.0.1-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/__init__.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/geomagic_to_wx250_moveit.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/geomagic_to_wx250.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/virtual_geomagic.py
+Listing '/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop'...
+Compiling '/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/__init__.py'...
+Compiling '/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/geomagic_to_wx250.py'...
+Compiling '/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/geomagic_to_wx250_moveit.py'...
+Compiling '/home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/local/lib/python3.10/dist-packages/wx250_geomagic_teleop/virtual_geomagic.py'...
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/lib/wx250_geomagic_teleop/geomagic_to_wx250.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/lib/wx250_geomagic_teleop/virtual_geomagic.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/wx250_geomagic_teleop.launch.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/wx250_virtual_geomagic_sim.launch.py
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/ament_index/resource_index/packages/wx250_geomagic_teleop
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/package.xml
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/ament_index/resource_index/package_run_dependencies/wx250_geomagic_teleop
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/ament_index/resource_index/parent_prefix_path/wx250_geomagic_teleop
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/environment/ament_prefix_path.sh
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/environment/ament_prefix_path.dsv
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/environment/path.sh
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/environment/path.dsv
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/local_setup.bash
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/local_setup.sh
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/local_setup.zsh
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/local_setup.dsv
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/package.dsv
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/ament_index/resource_index/packages/wx250_geomagic_teleop
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/cmake/wx250_geomagic_teleopConfig.cmake
+-- Installing: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/cmake/wx250_geomagic_teleopConfig-version.cmake
+-- Up-to-date: /home/ishabh/interbotix_ws/install/wx250_geomagic_teleop/share/wx250_geomagic_teleop/package.xml

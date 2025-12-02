@@ -1,0 +1,9 @@
+setup.py
+wx250_geomagic_teleop/__init__.py
+wx250_geomagic_teleop/geomagic_to_wx250.py
+wx250_geomagic_teleop/geomagic_to_wx250_moveit.py
+wx250_geomagic_teleop/virtual_geomagic.py
+wx250_geomagic_teleop.egg-info/PKG-INFO
+wx250_geomagic_teleop.egg-info/SOURCES.txt
+wx250_geomagic_teleop.egg-info/dependency_links.txt
+wx250_geomagic_teleop.egg-info/top_level.txt
