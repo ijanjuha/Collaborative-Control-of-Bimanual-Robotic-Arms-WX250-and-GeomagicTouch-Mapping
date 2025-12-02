@@ -15,7 +15,7 @@
 
 ## 📋 Overview
 
-A high-performance **bilateral teleoperation system** enabling intuitive control of an **Interbotix WX250 robotic arm** using a **Geomagic Touch haptic device**. The system provides realistic force feedback through advanced gravity compensation and velocity damping, creating an immersive robotic manipulation experience.
+A high-performance **bilateral teleoperation system** enabling intuitive control of an **Interbotix WX250 robotic arm** **(WidowX 250)** using a **Geomagic Touch haptic device**. The system provides realistic force feedback through advanced gravity compensation and velocity damping, creating an immersive robotic manipulation experience.
 
 ### Key Features
 
